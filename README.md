@@ -1,4 +1,4 @@
-# 🧠 Agent Control Room
+# Agent Control Room
 
 **Agent Control Room** is "Chrome DevTools for AI Agents." It provides a high-fidelity observability platform to track, debug, and optimize AI agent executions in real-time.
 
@@ -10,17 +10,17 @@ Whenever an AI agent runs, you can capture:
 
 ---
 
-## 🎯 Real-World Problem Solved
+##  Real-World Problem Solved
 
 AI agents often fail silently, hallucinate, or run up unexpected costs. Agent Control Room provides the visibility needed to build reliable AI systems:
-- ✅ **Observability**: No more "black box" executions.
-- ✅ **Debugging**: Replay and inspect failed steps.
-- ✅ **Cost Tracking**: Know exactly where your budget is going.
-- ✅ **Reliability**: Identify performance bottlenecks instantly.
+-  **Observability**: No more "black box" executions.
+-  **Debugging**: Replay and inspect failed steps.
+-  **Cost Tracking**: Know exactly where your budget is going.
+-  **Reliability**: Identify performance bottlenecks instantly.
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```mermaid
 graph TD
@@ -32,28 +32,28 @@ graph TD
 
 ---
 
-## 🧩 Core Features
+##  Core Features
 
-### ✅ Execution Tracking
+###  Execution Tracking
 - Capture input prompts and final agent responses.
 - Track status (Success/Failure/Running).
 
-### ✅ Step-by-Step Trace
+###  Step-by-Step Trace
 - Visualize the exact flow: `User Query → LLM → Tool Call → API Response → Final Answer`.
 - Detailed inspection of JSON inputs and outputs for every step.
 
-### ✅ Cost & Latency
+###  Cost & Latency
 - Automatic token counting and cost calculation.
 - Millisecond-accurate latency tracking per step.
 
-### ✅ Premium Dashboard
+###  Premium Dashboard
 - Sleek dark-mode interface.
 - Markdown rendering for agent responses.
 - Interactive trace timeline.
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - **Backend**: FastAPI, SQLAlchemy, OpenTelemetry.
 - **Frontend**: Next.js 15, Tailwind CSS, React Markdown.
@@ -62,7 +62,7 @@ graph TD
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Backend Setup
 1. `cd backend`
@@ -76,6 +76,3 @@ graph TD
 
 ---
 
-## 🧠 Interview Pitch
-
-> "I built an observability platform for AI agents that tracks every execution step, logs tool usage, measures latency and cost, and enables failure replay using structured tracing. It uses OpenTelemetry for distributed tracing and a FastAPI backend with PostgreSQL for structured logging."
