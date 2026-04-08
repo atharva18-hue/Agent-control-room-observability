@@ -1,4 +1,4 @@
-#  Agent Control Room – Chrome DevTools for AI Agents
+#  Agent Control Room Chrome DevTools for AI Agents
 
 **Agent Control Room** is a full-stack **AI observability platform** inspired by Chrome DevTools. It enables teams to **trace, debug, monitor, and optimize AI agent executions in real time**.
 
